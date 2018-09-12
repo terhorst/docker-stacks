@@ -12,6 +12,7 @@ RUN apt-get update && \
     fonts-dejavu \
     tzdata \
     gfortran \
+    rsync \
     gcc && apt-get clean && \
     rm -rf /var/lib/apt/lists/*
 
